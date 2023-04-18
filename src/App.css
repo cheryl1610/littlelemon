@@ -21,3 +21,25 @@
 .footer-column {
     margin:2rem;
 }
+
+.nav-list{
+    margin: 2rem;
+    overflow: hidden;
+    display: inline-flex;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Markazi Text', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.nav-list li{
+    margin: 2rem;
+    list-style-type: none;
+}

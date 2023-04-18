@@ -2,32 +2,18 @@ import Logo from '../assets/Logo.svg'
 import Nav from 'react-bootstrap/Nav';
 
 const MyNav = () => {
-  return  <Nav
-      activeKey="/home"
-      onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
-  >
-    <Nav.Item>
-      <img src={Logo} alt={'logo'}/>
+  return  <Nav>
 
-    </Nav.Item>
-    <Nav.Item>
-      <Nav.Link href="/home">Home</Nav.Link>
-    </Nav.Item>
-    <Nav.Item>
-      <Nav.Link href="/about">About</Nav.Link>
-    </Nav.Item>
-    <Nav.Item>
-      <Nav.Link href="/menu">Menu</Nav.Link>
-    </Nav.Item>
-    <Nav.Item>
-      <Nav.Link href="/reservation">Reservation</Nav.Link>
-    </Nav.Item>
-    <Nav.Item>
-      <Nav.Link href="/orderonline">Order Online</Nav.Link>
-    </Nav.Item>
-    <Nav.Item>
-      <Nav.Link href="/login">Login</Nav.Link>
-    </Nav.Item>
+    <ul className={"nav-list"}>
+      <li><img src={Logo} alt={'logo'}/></li>
+      <li><a href={"/home"}>Home</a></li>
+      <li><a href={"/about"}>About</a></li>
+      <li><a href={"/menu"}>Menu</a></li>
+      <li><a href={"/reservation"}>Reservations</a></li>
+      <li><a href={"/orderOnline"}>Order Online</a></li>
+      <li><a href={"/login"}>Login</a></li>
+    </ul>
+
 
   </Nav>
 }
