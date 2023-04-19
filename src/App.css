@@ -43,3 +43,27 @@
     margin: 2rem;
     list-style-type: none;
 }
+h1 {
+    font-family: "Markazi Text", Serif, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 77px;
+    color: #F4CE14;
+}
+p {
+    font-family: "Karla", "Faustina", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+h2 {
+    font-family: 'Markazi Text', "Faustina", serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+
+    color: #333333;
+}
