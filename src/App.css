@@ -1,6 +1,16 @@
 .App {
     text-align: center;
 }
+* {
+    font-family: "Markazi Text", "Karla", serif;
+}
+a:visited,
+Link:visited,
+a:link,
+Link:link {
+    text-decoration: none;
+    color: black;
+}
 
 .footer-container {
     display: flex;
@@ -9,20 +19,21 @@
     color: white;
 }
 
-.footer-container ul{
+.footer-container ul {
     list-style: none;
-    padding:0;
+    padding: 0;
 }
 
-.footer-container img{
+.footer-container img {
     height: 10rem;
 
 }
+
 .footer-column {
-    margin:2rem;
+    margin: 2rem;
 }
 
-.nav-list{
+.nav-list {
     margin: 2rem;
     overflow: hidden;
     display: inline-flex;
@@ -33,16 +44,17 @@
     font-family: 'Markazi Text', serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
-    line-height: 48px;
+    font-size: 18px;
+    line-height: 27px;
     align-items: center;
     text-transform: capitalize;
 }
 
-.nav-list li{
+.nav-list li {
     margin: 2rem;
     list-style-type: none;
 }
+
 h1 {
     font-family: "Markazi Text", Serif, serif;
     font-style: normal;
@@ -51,6 +63,7 @@ h1 {
     line-height: 77px;
     color: #F4CE14;
 }
+
 p {
     font-family: "Karla", "Faustina", serif;
     font-style: normal;
@@ -58,6 +71,7 @@ p {
     font-size: 16px;
     line-height: 150%;
 }
+
 h2 {
     font-family: 'Markazi Text', "Faustina", serif;
     font-style: normal;
@@ -65,5 +79,107 @@ h2 {
     font-size: 36px;
     line-height: 43px;
 
-    color: #333333;
+}
+
+.card-body {
+    background: #EDEFEE;
+}
+
+.card-price {
+    text-align: right;
+    color: #EE9972;
+}
+
+.card-title {
+    font-family: "Markazi Text";
+    font-size: 24px;
+}
+
+.card {
+    border-radius: 5rem;
+    width: 18rem;
+    margin: 2rem;
+
+}
+
+.card-img-top {
+    height: 8rem;
+}
+.card-img-center {
+    height: 3rem;
+    border-radius: 25%;
+    margin:1rem;
+   justify-items: right;
+}
+
+.card-grouping {
+    display: flex;
+    flex-direction: row;
+}
+
+.testimonials{
+    background: #F4CE14;
+    height: 20rem;
+
+}
+.test-grouping{
+    display: flex;
+    flex-direction: row;
+
+
+}
+.MainHeader{
+    background: #495E57;
+    color: white;
+display: flex;
+    flex-direction: row;
+}
+.Mainblurb{
+    margin:2rem;
+    padding:1rem
+
+}
+.MainHeader img{
+    position: absolute;
+    width: 480px;
+    height: 450px;
+    left: 785px;
+    top: 153px;
+}
+.Specialsmain {
+    padding:2rem;
+    margin:5rem;
+}
+.About-sec{
+    display: flex;
+    flex-direction: row;
+
+}
+.container{
+    position: relative;
+    margin: 2rem;
+    padding:2rem
+}
+.container > img{
+    position: absolute;
+    top:28%;
+    right:30%;
+}
+.container > img:first-child{
+    z-index: 5;
+    top:0;
+    right:0;
+}
+#AboutP {
+    padding-right: 5rem;
+    padding-bottom: 12rem;
+
+}
+#ReserveButton{
+    background-color:#F4CE14;
+    border-radius: 8rem;
+}
+#Delivery-button{
+    background-color: #F4CE14;
+    border-color: #F4CE14;
 }

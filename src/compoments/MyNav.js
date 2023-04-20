@@ -1,17 +1,19 @@
 import Logo from '../assets/Logo.svg'
 import Nav from 'react-bootstrap/Nav';
+import {Link} from "react-router-dom";
 
 const MyNav = () => {
   return  <Nav>
 
     <ul className={"nav-list"}>
       <li><img src={Logo} alt={'logo'}/></li>
-      <li><a href={"/home"}>Home</a></li>
-      <li><a href={"/about"}>About</a></li>
-      <li><a href={"/menu"}>Menu</a></li>
-      <li><a href={"/reservation"}>Reservations</a></li>
-      <li><a href={"/orderOnline"}>Order Online</a></li>
-      <li><a href={"/login"}>Login</a></li>
+      <li><Link to={"/home"} >Home</Link></li>
+      <li><Link to={"/about"} >About</Link></li>
+      <li><Link to={"/menu"} >Menu</Link></li>
+      <li><Link to={"/reservation"} >Reservations</Link></li>
+      <li><Link to={"/orderOnline"} >Order Online</Link></li>
+      <li><Link to={"/Login"} >Login</Link></li>
+
     </ul>
 
 
