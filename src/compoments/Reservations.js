@@ -1,3 +1,4 @@
+import BookingForm from "./BookingForm";
 const Reservations = () => {
 return <div>
 

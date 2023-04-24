@@ -10,7 +10,7 @@ const MyNav = () => {
       <li><Link to={"/home"} >Home</Link></li>
       <li><Link to={"/about"} >About</Link></li>
       <li><Link to={"/menu"} >Menu</Link></li>
-      <li><Link to={"/reservation"} >Reservations</Link></li>
+      <li><Link to={"/reservations"} >Reservations</Link></li>
       <li><Link to={"/orderOnline"} >Order Online</Link></li>
       <li><Link to={"/Login"} >Login</Link></li>
 
