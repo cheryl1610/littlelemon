@@ -5,7 +5,6 @@ import React, {useReducer} from "react";
 import BookingForm from "./BookingForm";
 import {fetchAPI, submitAPI} from "../metaApi";
 import ConfirmedBooking from "./ConfirmedBooking";
-
 export const updateTimes = (state, date) => {
     return fetchAPI(new Date(date))
 }
@@ -34,6 +33,7 @@ function Main() {
                    element={<BookingForm availableTimes={availableTimes} dispatch={dispatch} submitForm={submitForm}/>}></Route>
             <Route path="/orderOnline" element={<NotImplementedPage name={"order online"}/>}></Route>
             <Route path="/confirmedBooking" element={<ConfirmedBooking/>}></Route>
+
         </Routes>
     </main>;
 }

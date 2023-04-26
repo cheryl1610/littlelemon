@@ -12,7 +12,9 @@ const SpecialCard = ({image, price, title, description}) =>
             <Card.Text>
                 {description}
             </Card.Text>
-            <Button id={"Delivery-button"} href={"/orderOnline"}>Order a delivery <MdDeliveryDining/></Button>
+            <Button id={"Delivery-button"} href={"/orderOnline"} aria-label="On Click"
+
+            >Order a delivery <MdDeliveryDining/></Button>
         </Card.Body>
     </Card>
 

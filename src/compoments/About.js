@@ -12,9 +12,9 @@ const About = () => {
                 Little Lemon restaurant"</p>
         </div>
         <div className={"container"}>
-            <img src={Mario} id={'aboutImage1'} height={'150px'}/>
+            <img src={Mario} alt={"chefs"} id={'aboutImage1'} height={'150px'}/>
 
-            <img src={Mario2} id={'aboutImage2'} height={'150px'}/>
+            <img src={Mario2} alt={"chefs"} id={'aboutImage2'} height={'150px'}/>
     </div>
     </div>
 }

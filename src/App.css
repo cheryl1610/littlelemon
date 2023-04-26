@@ -99,6 +99,7 @@ h2 {
     border-radius: 5rem;
     width: 18rem;
     margin: 2rem;
+    flex-basis: 100%;
 
 }
 
@@ -115,16 +116,22 @@ h2 {
 .card-grouping {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .testimonials{
     background: #F4CE14;
     height: 20rem;
+    flex-basis: 100%;
+    flex-wrap: wrap;
 
 }
 .test-grouping{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    flex-shrink: revert;
 
 
 }
@@ -153,6 +160,8 @@ display: flex;
 .About-sec{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 100%;
 
 }
 .container{
@@ -175,11 +184,50 @@ display: flex;
     padding-bottom: 12rem;
 
 }
-#ReserveButton{
+.Reservation Button{
     background-color:#F4CE14;
     border-radius: 8rem;
 }
 #Delivery-button{
     background-color: #F4CE14;
     border-color: #F4CE14;
+}
+
+.detailForm {
+    display: flex;
+    flex-direction: column;
+    margin:2rem
+
+}
+.Pending {
+    display: flex;
+    flex-direction: column;
+
+
+}
+.ReserveComp {
+    display: flex;
+flex-direction:column;
+    background: #F4CE14;
+    text-align: center;
+
+}
+.Reserform {
+    padding:2rem
+}
+.BackButton {
+    background: #495E57;
+    color: white;
+    border-radius: 8rem;
+    margin:2rem;
+
+}
+.radio{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+.fieldGroup{
+    display: flex;
+    flex-direction: column;
 }
